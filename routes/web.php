@@ -17,6 +17,12 @@ use Illuminate\Support\Facades\Route;
     return view('welcome');
 });
 */
+/*
 Route::get('home',function(){
     return view('home');
 });
+*/
+Route::get('home',function(){
+    return view('home.index');
+});
+
